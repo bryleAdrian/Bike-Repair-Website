@@ -1,0 +1,356 @@
+html{
+    background-image: linear-gradient(#FC5E55, #FA4083);
+}
+
+
+body{
+    background-image: url(images/image-lion-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.25rem;
+
+}
+
+/*Hold all Tags*/
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Logo Settings*/
+header{
+
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /*border-bottom: 3px solid white;*/
+
+}
+
+/*Nav on Headers*/
+nav{
+    display: inline-block;
+    
+}
+
+.nav1{
+    border: 2px solid white;
+    background-color:rgb(173, 89, 89);
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+  
+    
+}
+
+
+.nav1:hover:hover{
+    background-color: #452221;
+    transition-duration: 1ms;
+    
+
+}
+/*
+.nav2{
+    border: 2px solid white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 5px;
+    margin-left: 30px;
+    
+}
+
+.nav2:hover:hover{
+    background-color: #796564;
+   
+
+}
+.nav3{
+    border: 2px solid white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 5px;
+    margin-left: 30px;   
+}
+
+.nav3:hover:hover{
+    background-color: #796564;
+    transition-duration: 1s;
+
+}*/
+
+
+
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.main{
+    font-family: 'Playfair Display', serif;
+
+
+}
+
+/*Removing underline and changing font color*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Parent Card*/
+.cards{
+
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+
+/*Card 1 Settings*/
+.card1{
+    background-image: url(images/image-background-card1.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    min-height: 250px;
+    width: 30%;
+}
+/*Card 2 Settings*/
+.card2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    min-height: 250px;
+    width: 30%;
+
+    
+    
+}
+/*Card 3 Settings*/
+.card3{
+
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    border-radius: 10px;
+    min-height: 250px;
+    width: 30%;
+    
+
+}
+
+
+/*Main HeroBox1 ysung Flex*/
+.herobox1{
+    flex: 2;
+    padding-right: 100px;
+    
+}
+
+/*Main HeroBox2 using Flex*/
+.herobox2{
+    flex: 1;   
+   
+}
+
+.herobox2 img{
+
+    border-radius: 10px;
+}
+
+/*Main H1 Setting*/
+h1{
+    font-size: 3.25rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    
+}
+
+/*Main P Setting*/
+p{
+    line-height: 1.75rem;
+    margin-bottom: 0.5rem;
+
+}
+
+/* Cards H2 Setting*/
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*P tag settings on each card*/
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 10px 30px 20px 30px;
+}
+
+
+/*Settings for Font Awesome*/
+i{
+    padding-top: 40px;
+    margin-left: 100px;
+    font-size: 100px;
+
+}
+/*Book Online Button*/
+.Button{
+    background-color:rgb(173, 89, 89);
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.Button:hover{
+    background-color: #452221;
+    transition-duration: 1ms;
+}
+.lbox1{
+    width: 47%;
+    padding: 50px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+
+   
+}
+
+.lbox{
+    margin-top: 40px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+      
+}
+
+.lbox :last-child{
+    font-size: 18px;
+    padding: 30px;
+}
+/*
+.navbutton{
+    border: 2px solid white;
+    padding:11px 25px;
+    background-color: #796564;
+    text-align: center;
+    border-radius: 5px;
+   
+}*/
+
+.dropdown{
+    display: none;
+    padding: 20px;
+    margin: -55px;
+    position: absolute; 
+    width: 200px;
+    z-index: 1;
+    text-align: center;
+    
+
+}
+
+.nav1:hover .dropdown{
+    display: block;
+    padding-top: 80px;
+ 
+
+}
+
+.dropdpwn .nav1{
+    width: 100px;
+
+}
+
+.form1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 20px 0;
+    
+    
+    
+}
+
+input[type=text]{
+    width: 40%;
+    height: 30px;
+    margin-left: 23px;
+}
+
+input[type=email]{
+    width: 40%;
+    height: 30px;
+    margin-left: 1px;
+}
+.form2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: 20px 0;
+    
+}
+
+.textform{
+    margin: 20px 100px;
+}
+
+.form3{
+    margin: 40px 100px;
+    
+
+}
+
+.submit{
+    background-color: transparent;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    padding: 11px 25px;
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.submit:hover{
+    background-color: #452221;
+    transition-duration: 1ms;
+}
+.checkbox{
+
+    font-size: 15px;
+    margin: 20px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
